@@ -1,0 +1,10 @@
+<ng-template *ngIf="loggedIn; then loggedIn; else loggedOut">
+
+</ng-template>
+
+<ng-template #loggedIn>
+  Logged in
+</ng-template>
+<ng-template #loggedOut>
+  Login please
+</ng-template>

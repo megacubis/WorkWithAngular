@@ -1,10 +1,6 @@
-<ng-template *ngIf="loggedIn; then loggedIn; else loggedOut">
-
-</ng-template>
-
-<ng-template #loggedIn>
-  Logged in
-</ng-template>
-<ng-template #loggedOut>
-  Login please
-</ng-template>
+<div [ngClass]="{invisible: visibility}">
+  <h1>Hello world</h1>
+  <p >Lorem ipsum dolor, sit amet consectetur
+    adipisicing elit. Voluptatibus, neque!</p>
+</div>
+<button (click)="toggle()">Toggle</button>

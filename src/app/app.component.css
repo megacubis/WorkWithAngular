@@ -2,3 +2,7 @@ h1 {
     color: gray;
     font-size: 10rem;
 }
+
+img {
+    max-width: 150px;
+}
